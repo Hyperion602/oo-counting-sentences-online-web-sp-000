@@ -16,6 +16,5 @@ class String
 
   def count_sentences
     self.split(/[\.?!]/).count { |x| x != " " || x != nil }
-    binding pry
   end
 end
